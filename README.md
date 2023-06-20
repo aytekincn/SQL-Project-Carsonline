@@ -19,7 +19,7 @@ ORDER BY price DESC
 **Results:**
 
 car_id|	price|car_make|car_model|car_year|
--------|-------|------------|-------------|----------|
+|-------|-------|------------|-------------|----------|
 55927|159999|mercedes|G Class|2020|
 49733|149948|mercedes|SL CLASS|2011|
 5459|133900|audi|R8|2020

@@ -222,6 +222,7 @@ ON s.car_id = c.car_id
 ````
 **Results:**
 percent_of_sold_cars|
+--------------------|
 65.9195781147000659100|
 
 #### What was the average price of sold cars made by Audi?
@@ -235,6 +236,7 @@ WHERE YEAR(s.purchase_date) = 2019 AND ct.car_make = 'Audi'
 ````
 **Results:**
 average_price|
+-------------|
 22620|
 
 

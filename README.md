@@ -95,10 +95,11 @@ SELECT tt.transmission_name, AVG(c.price) AS 'average_price'
 FROM cars c JOIN transmission_types tt 
 ON   c.transmission_type_id = tt.transmission_type_id
 GROUP BY tt.transmission_name
-ORDER BY AVG(c.price) DESC````
+ORDER BY AVG(c.price) DESC
+````
 **Results:**
 transmission_name|average_price|
-----------------|------------|
+-----------------|-------------|
 Semi-Auto|25200|
 Automatic|21703|
 Manual|12381|

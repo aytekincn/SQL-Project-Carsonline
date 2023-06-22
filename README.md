@@ -89,7 +89,7 @@ Hybrid|	564|
 Other|31|
 Electric|2|
 
-#### Average price for each transmission name. Output by the average price 	?
+#### Average price for each transmission name. Output by the average price?
 ````sql
 SELECT tt.transmission_name, AVG(c.price) AS 'average_price' 
 FROM cars c JOIN transmission_types tt 

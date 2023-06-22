@@ -22,7 +22,7 @@ car_id|	price|car_make|car_model|car_year|
 -------|-------|------------|-------------|----------|
 55927|	159999|mercedes|G Class|2020|
 
-#### Only cars made by bmw between 2015 - 2019?
+#### Only cars made by bmw in 2019?
 ````sql
 SELECT TOP 10 c.car_id, c.price, ct.car_make, ct.car_model, ct.car_year 
 FROM cars c 
